@@ -3,3 +3,22 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+div {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 20px;
+}
+
+@media (pointer:fine) {
+  li {
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 768px) {
+
+}

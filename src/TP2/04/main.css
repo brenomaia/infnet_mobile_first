@@ -3,3 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+p {
+  font-size: clamp(10px, 5vw, 30px);
+}

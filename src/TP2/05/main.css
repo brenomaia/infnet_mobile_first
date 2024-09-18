@@ -3,3 +3,17 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+@media (orientation: portrait) {
+  .img-ph {
+    width: 100vw;
+    height: auto;
+  }
+}
+
+@media (orientation: landscape) {
+  .img-ph {
+    height: 80vh;
+    width: auto;
+  }
+}

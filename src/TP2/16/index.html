@@ -3,11 +3,85 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="main.css" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="main.jsx"></script>
+    <details>
+      <summary>Menu</summary>
+      <ul>
+        <li>Home</li>
+        <li>Vídeos</li>
+        <li>Favoritos</li>
+        <li>Categorias</li>
+      </ul>
+    </details>
+
+    <div class="menu">
+      <div class="menu-item">
+        <p>Home</p>
+      </div>
+      <div class="menu-item">
+        <p>Vídeos</p>
+      </div>
+      <div class="menu-item">
+        <p>Favoritos</p>
+      </div>
+      <div class="menu-item">
+        <p>Categorias</p>
+      </div>
+    </div>
+
+    <div class="video-container">
+      <div class="video">
+        <video class="main-video" src="../../assets/codando.mp4" controls></video>
+      </div>
+      <div class="video-info-container">
+        <h3>Vídeo codando</h3>
+        <h4>Autor</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, soluta. Tempore et aliquam, ullam aspernatur repellendus praesentium eius deleniti. Nobis fugit numquam voluptatem illo quidem inventore laudantium ab sit qui?</p>
+      </div>
+
+      <div class="video-actions">
+        <button>Curtir</button>
+        <button>Compartilhar</button>
+        <button>Salvar</button>
+        <button>Denunciar</button>
+      </div>
+    </div>
+
+    <div class="group-ads-container">
+      <h3>Anúncios</h3>
+      <div class="ads-container">
+        <div class="ad-container">
+          <img src="../../assets/airpods.png" alt="airpods">
+        </div>
+        <div class="ad-container">
+          <img src="../../assets/iphone.png" alt="iphone">
+        </div>
+      </div>
+    </div>
+
+    <div class="related-videos-container">
+      <h3>Vídeos Relacionados</h3>
+      <div class="related-videos">
+        <img src="../../assets/video-placeholder.png" alt="video-placeholder">
+        <h4>Video 1</h4>
+        <h5>Autor 1</h5>
+      </div>
+
+      <div class="related-videos">
+        <img src="../../assets/video-placeholder.png" alt="video-placeholder">
+        <h4>Video 2</h4>
+        <h5>Autor 2</h5>
+      </div>
+
+      <div class="related-videos">
+        <img src="../../assets/video-placeholder.png" alt="video-placeholder">
+        <h4>Video 3</h4>
+        <h5>Autor 3</h5>
+      </div>
+    </div>
   </body>
 </html>

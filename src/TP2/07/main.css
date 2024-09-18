@@ -3,3 +3,22 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.img {
+  width: 100vw;
+  height: auto;
+}
+
+.base-text {
+  font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  .img {
+    width: 30%;
+  }
+
+  div {
+    display: flex;
+  }
+}

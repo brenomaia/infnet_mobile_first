@@ -2,4 +2,52 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-size: clamp(10px, 3vh, 30px);
+}
+
+.question-container {
+  margin: 10px;
+}
+
+.question-text {
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-top: 2px solid rebeccapurple;
+  padding-top: 5px;
+}
+
+li {
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+@media (orientation:landscape) {
+  .question-container {
+    display: flex;
+    border-top: 2px solid rebeccapurple;
+    flex-wrap: wrap;
+  }
+
+  .question-text {
+    font-weight: bold;
+    width: 20vw;
+    max-width: 20vw;
+    margin-bottom: 10px;
+    border-top: none;
+    padding-top: 5px;
+    padding-right: 5px;
+  }
+
+  @media (min-width: 850px) {
+    .question-answer {
+      position: absolute;
+      right: 10px;
+    }
+  }
+}
+
+@media print {
+  .questions {
+      flex-direction: column;
+  }
 }

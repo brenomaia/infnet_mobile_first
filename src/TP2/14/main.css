@@ -3,3 +3,78 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu-item img {
+  width: 35px;
+  height: 35px;
+}
+
+.profile-container {
+  margin: 15px;
+  text-align: center;
+}
+
+.profile-container img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 100px;
+  border-color: 100px solid white;
+}
+
+.hobbies-container {
+  margin: 15px;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.hobbies-container img {
+  max-width: 100px;
+  height: auto;
+  margin: 15px;
+}
+
+.friends-container {
+  margin: 15px;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.friends-container img {
+  max-width: 100px;
+  height: auto;
+  margin: 15px;
+}
+
+@media (prefers-color-scheme: light) {
+  .menu {
+    background-color: beige;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+* {
+  background-color: darkslategray;  
+  color: whitesmoke;
+}
+
+  .menu {
+    background-color: darkslategray;
+    color: aliceblue;
+  }
+}
+
+@media (min-width: 768px) {
+  .profile-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .profile-container img {
+    margin: 5px;
+  }
+}
