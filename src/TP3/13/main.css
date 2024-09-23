@@ -3,3 +3,47 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.header {
+  background-color: lightblue;
+  text-align: center;
+  padding: 15px;
+}
+
+.todolist {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.todolist {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.list-item {
+  padding: 5px;
+}
+
+.remove-button {
+  width: 100px;
+  margin-left: 10px;
+}
+
+@media (prefers-color-scheme: light) {
+}
+
+@media (prefers-color-scheme: dark) {
+  * {
+    background-color: darkslategray;  
+    color: whitesmoke;
+  }
+
+  .header {
+    background-color: darkblue;
+  }
+
+  .menu {
+    background-color: darkslategray;
+    color: aliceblue;
+  }
+}

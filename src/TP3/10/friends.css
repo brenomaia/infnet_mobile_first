@@ -1,0 +1,14 @@
+.friends {
+    padding: 5px;
+}
+
+.friend {
+    max-width: 100%;
+    padding: 10px;
+    border: 1px solid lightblue;
+    margin-top: 10px;
+}
+
+.friend-profile-img {
+    max-width: 100%;
+}

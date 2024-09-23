@@ -3,3 +3,26 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.card {
+  margin: 5px;
+  border: 1px solid black;
+  width: 85vw;
+  display: flex;
+  border-radius: 6px;
+  box-shadow: 5px 5px 5px grey  ;
+}
+
+.card-img {
+  width: 30%;
+  max-width: 300px;
+  height: auto;
+}
+
+.card-info {
+  margin: 5px;
+}
+
+.footer {
+  margin-top: 10px;
+}

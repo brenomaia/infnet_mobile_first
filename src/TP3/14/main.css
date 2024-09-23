@@ -3,3 +3,39 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.questions {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.question {
+  text-align: center;
+  margin: 10px;
+  border: 1px solid red;
+}
+
+.alternatives {
+  list-style-type: none;
+}
+
+.score {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  height: 75px;
+  margin: 15px;
+}
+
+@media (prefers-color-scheme: light) {
+  * {
+    background-color: beige;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  * {
+    background-color: darkslategray;  
+    color: whitesmoke;
+  }
+}

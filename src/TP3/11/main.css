@@ -3,3 +3,145 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.menu {
+  /* justify-content: space-between; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.menu-items-list {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style-type: none;
+  background-color: gainsboro;
+}
+
+.menu-items-list li {
+  align-self: center;
+}
+
+.menu-items-list>.menu-option {
+  width: 100vw;
+  display: none;
+}
+
+.active .menu-option {
+  display: block;
+}
+
+.img-logo {
+  width: 65px;
+  height: auto;
+}
+
+.img-menu {
+  width: 30px;
+  height: auto;
+}
+
+.product-container {
+  text-align: center;
+  width: 100%;
+}
+
+.product-info-container {
+  margin: 10px;
+}
+
+.product-img-container img {
+  max-width: 100%;
+}
+
+.related-products-container {
+  text-align: center;
+  margin: 15px;
+}
+
+.related-product-container {
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.related-product-img-container img {
+  height: 200px;
+  width: auto;
+  max-width: 100%;
+}
+
+.reviews-container {
+  margin: 5px;
+  text-align: center;
+}
+
+.review-container {
+  margin-top: 10px;
+  padding-top: 5px;
+  border-top: 1px solid red;
+}
+
+
+@media (min-width: 768px) {
+  .menu {
+    display: flex;
+  }
+
+  .menu-items-list {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .menu-items-list>.menu-option {
+    width: 15vw;
+    display: list-item;
+  }
+
+  .menu-items-list>.menu-toggle {
+    display: none;
+  }
+
+  .product-container {
+    display: flex;
+    text-align: left;
+  }
+
+  .product-img-container {
+    width: 700px;
+    height: auto;
+  }
+
+  .related-products-list-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .related-product-container {
+    width: 25vw;
+  }
+
+  .related-product-img-container {
+    max-width: 100%;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .menu {
+    background-color: beige;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  * {
+    background-color: darkslategray;  
+    color: whitesmoke;
+  }
+
+  .menu {
+    background-color: darkslategray;
+    color: aliceblue;
+  }
+}

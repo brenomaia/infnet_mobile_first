@@ -1,0 +1,9 @@
+.post-container {
+    margin: 10px;
+    border: 1px solid red;
+    padding: 5px;
+}
+
+.post-img {
+    max-width: 20%;
+}

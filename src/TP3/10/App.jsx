@@ -1,5 +1,15 @@
+import Menu from "./components/Menu"
+import Feed from "./components/Feed"
+import Friends from "./components/Friends"
+import FriendsSuggestions from "./components/FriendsSuggestions"
+
 export default function App() {
     return (
-        <div>Vamo que vamo!</div>
+        <>
+            <Menu />
+            <Feed />
+            <Friends />
+            <FriendsSuggestions />
+        </>
     )
 }
