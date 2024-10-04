@@ -1,0 +1,13 @@
+.global_menu {
+    background-color: beige;
+    width: 80%;
+    height: 80px;
+    order: 2;
+}
+
+@media (min-width: 768px) {
+    .global_menu {
+        width: 100%;
+        grid-area: global_menu;
+    }
+}

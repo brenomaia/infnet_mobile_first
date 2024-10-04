@@ -1,0 +1,20 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    'header header header header header header header header header header'
+    'header header header header header header header header header header'
+    'global_menu global_menu global_menu global_menu global_menu global_menu global_menu ads ads ads'
+    'context_menu context_menu context_menu main_content main_content main_content main_content ads ads ads'
+    'context_menu context_menu context_menu main_content main_content main_content main_content ads ads ads'
+    'context_menu context_menu context_menu main_content main_content main_content main_content ads ads ads'
+    'context_menu context_menu context_menu main_content main_content main_content main_content ads ads ads'
+    'context_menu context_menu context_menu main_content main_content main_content main_content ads ads ads'
+    'context_menu context_menu context_menu main_content main_content main_content main_content ads ads ads'
+    'footer footer footer footer footer footer footer footer footer footer'
+    ;
+}

@@ -1,0 +1,14 @@
+.ads {
+    background-color: lightgreen;
+    width: 100%;
+    height: 150px;
+    order: 5;
+
+}
+
+@media (min-width: 768px) {
+    .ads {
+        grid-area: ads;
+        height: 100%;
+    }
+}

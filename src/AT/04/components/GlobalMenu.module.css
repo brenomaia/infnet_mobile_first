@@ -1,0 +1,4 @@
+.global_menu {
+    grid-area: global_menu;
+    background-color: beige;
+}

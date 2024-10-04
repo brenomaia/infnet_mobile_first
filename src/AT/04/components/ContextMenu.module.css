@@ -1,0 +1,4 @@
+.context_menu {
+    grid-area: context_menu;
+    background-color: pink;
+}

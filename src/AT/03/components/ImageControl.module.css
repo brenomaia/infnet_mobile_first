@@ -1,0 +1,9 @@
+.control {
+    width: 100vw;
+    margin: 15px;
+}
+
+.action_button {
+    display: block;
+    margin-bottom: 5px;
+}

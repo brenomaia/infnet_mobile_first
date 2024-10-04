@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card {
+}
+
+.profile {
+  width: 100vw;
+}
+
+.profile-info {
+  width: 100%;
+  padding: 5px;
+}
+
+.profile-pic img {
+  max-width: 100%;
+  max-height: auto;
+  display: block;
+  margin: auto; 
+}
+
+.actions {
+  display: flex;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  justify-content: space-evenly;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.actions img {
+  width: 45px;
+  height: auto;
+}
+
+.tasks {
+  width: 100%;
+  padding: 0 !important;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.tasks-table {
+  width: 70%;
+  padding: 0 !important;
+}
+
+.tasks-table, tr, th, td {
+  border: 1px solid;
+}

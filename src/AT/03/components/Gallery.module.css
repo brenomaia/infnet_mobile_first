@@ -1,0 +1,17 @@
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.image img {
+    width: 100px;
+    height: 100px;
+}
+
+@media (min-width: 768px) {
+    .image img {
+        width: 200px;
+        height: 200px;
+    }        
+}

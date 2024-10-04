@@ -1,0 +1,12 @@
+.header {
+    min-width: 20%;
+    background-color: aquamarine;
+    order: 1;
+}
+
+@media (min-width: 768px) {
+    .header {
+        grid-area: header;
+        background-color: aquamarine;
+    }
+}

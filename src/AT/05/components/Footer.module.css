@@ -1,0 +1,13 @@
+.footer {
+    width: 100%;
+    height: 70px;
+    background-color: yellowgreen;
+    order: 6;
+}
+
+
+@media (min-width: 768px) {
+    .footer {
+        grid-area: footer;
+    }
+}

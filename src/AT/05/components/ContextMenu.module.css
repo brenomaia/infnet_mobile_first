@@ -1,0 +1,13 @@
+.context_menu {
+    background-color: pink;
+    height: 150px;
+    width: 100%;
+    order: 3;
+}
+
+@media (min-width: 768px) {
+    .context_menu {
+        height: 100%;
+        grid-area: context_menu;
+    }
+}
