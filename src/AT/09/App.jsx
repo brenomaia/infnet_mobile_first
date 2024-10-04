@@ -1,5 +1,7 @@
+import Menu from "./components/Menu"
+
 export default function App() {
     return (
-        <div>Hello World</div>
+        <Menu/>
     )
 }

@@ -3,3 +3,71 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.menu {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: red;
+  color: white;
+}
+
+.brand-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.menu-icon img {
+  width: 30px;
+  height: auto;
+  margin: 5px;
+}
+
+.contact-icon img {
+  width: 30px;
+  height: auto;
+  margin: 5px;
+}
+
+.options-div {
+  background-color: red;
+  color: white;
+}
+
+.options-list {
+  text-align: center;
+}
+
+.options-bar-div {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .options-div {
+    display: none;
+  }
+
+  .options-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+  }
+
+  .options-list li {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .options-bar-div {
+    display: block;
+  }
+
+  .brand-name {
+    margin-left: 5px;
+  }
+}

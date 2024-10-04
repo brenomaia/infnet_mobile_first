@@ -1,24 +1,27 @@
+import { Profile, ProfileActions, ProfileInfo, ProfilePic } from "./Profile"
+import { Tasks, TasksTable } from "./Tasks";
+
 const Card = () => {
     return (
         <div className="card">
-            <div className="profile">
-                <div className="profile-pic">
+            <Profile>
+                <ProfilePic>
                     <img src="../../assets/brenos-picture.jpeg"></img>
-                </div>
-                <div className="profile-info">
+                </ProfilePic>
+                <ProfileInfo>
                     <h1 className="name">Breno</h1>
                     <h3>28/09/1995</h3>
                     <h3>Engenharia</h3>
                     <h3>SWE</h3>
-                </div>
-                <div className="actions">
+                </ProfileInfo>
+                <ProfileActions>
                     <img src="../../assets/home.png"></img>
                     <img src="../../assets/linkedin.png"></img>
                     <img src="../../assets/contact.png"></img>
-                </div>
-            </div>
-            <div className="tasks">
-                <table className="tasks-table">
+                </ProfileActions>
+            </Profile>
+            <Tasks>
+                <TasksTable>
                     <tr>
                         <th>Estado</th>
                         <th>Tarefa</th>
@@ -35,8 +38,8 @@ const Card = () => {
                         <td className="task-state"><input type="checkbox"></input></td>
                         <td>Task 3</td>
                     </tr>
-                </table>
-            </div>
+                </TasksTable>
+            </Tasks>
         </div>
     )
 }
